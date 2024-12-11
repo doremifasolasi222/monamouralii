@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear Ali</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background: url('https://www.transparenttextures.com/patterns/old-paper.png'); /* Paper texture */
+            background-color: #f3e9d2;
+            color: #5b4b3a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #letter {
+            background: rgba(255, 255, 255, 0.9);
+            border: 2px solid #d4b382;
+            padding: 30px;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        #letter p {
+            line-height: 1.8;
+            font-size: 1.2rem;
+        }
+
+        #letter .sign-off {
+            font-style: italic;
+        }
+
+        .kiss {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-image: url('https://cdn.pixabay.com/photo/2016/04/01/09/17/lips-1296536_960_720.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .kiss-1 { top: 10%; left: 5%; transform: rotate(-20deg); }
+        .kiss-2 { top: 40%; left: 85%; transform: rotate(10deg); }
+        .kiss-3 { top: 75%; left: 15%; transform: rotate(-10deg); }
+        .kiss-4 { top: 60%; left: 50%; transform: rotate(5deg); }
+        .kiss-5 { top: 20%; left: 70%; transform: rotate(-15deg); }
+    </style>
+</head>
+<body>
+    <!-- Background audio -->
+    <audio autoplay loop>
+        <source src="https://drive.google.com/uc?export=download&id=1Sge-bk892J0r5N-W37JQb7VaZvnuqlDq" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <div id="letter">
+        <h1>Dear Ali,</h1>
+        <p>
+            From the moment I met you, my world became brighter, my heart became lighter, and my dreams grew more colorful. 
+            You have a way of making every day feel like an adventure, and being with you is my greatest joy.
+        </p>
+        <p>
+            Your kindness, your laughter, and the love you show me every day remind me how lucky I am to call you mine. 
+            I hope this little letter makes you smile as much as you make me smile every day. I love you now and every day, mon coeur.
+        </p>
+        <p class="sign-off">
+            Forever yours, <br>
+            Your biggest admirer ❤️
+        </p>
+    </div>
+
+    <!-- Scattered kisses -->
+    <div class="kiss kiss-1"></div>
+    <div class="kiss kiss-2"></div>
+    <div class="kiss kiss-3"></div>
+    <div class="kiss kiss-4"></div>
+    <div class="kiss kiss-5"></div>
+</body>
+</html>
